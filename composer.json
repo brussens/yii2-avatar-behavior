@@ -1,0 +1,30 @@
+{
+    "name": "brussens/yii2-avatar-behavior",
+    "description": "Behavior for the transparent operations of avatar thumbnails",
+    "license": "MIT",
+    "homepage": "https://github.com/brussens/yii2-avatar-behavior",
+    "support": {
+        "issues": "https://github.com/brussens/yii2-avatar-behavior/issues?state=open",
+        "source": "https://github.com/brussens/yii2-avatar-behavior"
+    },
+    "type": "yii2-behavior",
+    "version":"0.1.0",
+    "keywords": ["yii2", "yii 2", "behavior", "avatar"],
+    "authors": [
+        {
+            "name": "Brusenskiy Dmitry",
+            "email": "brussens@nativeweb.ru",
+            "url": "http://nativeweb.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-imagine": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "brussens\\behaviors\\": ""
+        }
+    }
+}
